@@ -47,6 +47,11 @@ footer .icons {
   font-size: 22px;
 }
 
+.active {
+  color: var(--branding-color) !important;
+  font-weight: bold;
+}
+
 .hero {
   background-image: url(../images/background.jpg);
   background-size: cover;
