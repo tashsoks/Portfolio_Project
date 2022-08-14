@@ -26,6 +26,22 @@ h1 {
   font-size: 96px;
 }
 
+footer {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: var(--branding-color);
+}
+
+footer a {
+  color: var(--branding-color);
+  font-size: 18px;
+}
+
+footer .icons {
+  font-size: 22px;
+}
+
 .hero {
   background-image: url(../images/background.jpg);
   background-size: cover;
@@ -64,22 +80,6 @@ h1 {
   border: 1px solid var(--accent-color);
 }
 
-footer {
-  padding-top: 10px;
-  text-align: center;
-  font-size: 15px;
-  color: var(--branding-color);
-}
-
-footer a {
-  color: var(--branding-color);
-  font-size: 18px;
-}
-
-footer .icons {
-  font-size: 22px;
-}
-
 @media (max-width: 576px) {
   .hero h1 {
     font-size: 60px;
@@ -88,5 +88,11 @@ footer .icons {
 
   .hero h2 {
     font-size: 20px;
+  }
+  .about {
+    text-align: center;
+  }
+  .portfolio-link {
+    text-align: center;
   }
 }
