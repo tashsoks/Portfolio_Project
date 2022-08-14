@@ -80,6 +80,10 @@ footer .icons {
   border: 1px solid var(--accent-color);
 }
 
+.projects {
+  text-align: center;
+}
+
 @media (max-width: 576px) {
   .hero h1 {
     font-size: 60px;
