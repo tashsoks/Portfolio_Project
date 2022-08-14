@@ -52,6 +52,10 @@ footer .icons {
   font-weight: bold;
 }
 
+.nav-link {
+  padding: 0 20px !important;
+}
+
 .hero {
   background-image: url(../images/background.jpg);
   background-size: cover;
