@@ -40,7 +40,6 @@ footer {
 footer .contact-box {
   background-color: var(--secondary-color);
   border-radius: 10px;
-  margin: 20px;
   padding: 30px 120px;
 }
 
@@ -142,6 +141,10 @@ footer .coded-by {
 @media (max-width: 576px) {
   h1 {
     font-size: 60px;
+  }
+
+  h2 {
+    font-size: 24px;
   }
 
   .hero h1 {
