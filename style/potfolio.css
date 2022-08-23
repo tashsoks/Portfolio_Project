@@ -33,8 +33,16 @@ h4 {
   font-size: 30px;
 }
 
+h6 {
+  font-style: italic;
+}
+
 footer {
   margin: 60px 0;
+}
+
+.job-roles {
+  color: var(--branding-color);
 }
 
 footer .contact-box {
@@ -77,6 +85,7 @@ footer .coded-by {
   color: var(--branding-color);
   text-decoration: none;
 }
+
 .active {
   color: var(--branding-color) !important;
   font-weight: bold;
